@@ -49,6 +49,29 @@ Print the remainder.*/
 
 var num =119;
 var rem =119%5;
-console.log(rem);
+// console.log(rem);
+
+var name = "shafriki islam";
+var age = 24;
+var occ = "student";
+
+// console.log(name);
+// console.log(age);
+// console.log(occ);
+
+var a =5;
+var b=23;
+
+var add =a+b;
+var sub =a-b;
+var mul =a*b;
+var div =a/b;
+
+console.log(add);
+console.log(sub);
+console.log(mul);
+console.log(div);
+
+
 
 
