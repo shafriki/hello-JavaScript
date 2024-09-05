@@ -68,16 +68,28 @@ Create a simple JavaScript program that takes a student's score as input and ret
 
 /*Write a program that determines whether a given number is positive or negative.*/
 
-let num = prompt("enter a number");
-let result;
+// let num = prompt("enter a number");
+// let result;
 
-if(num>0) {
-    result = (num,"is a positive number");
-}
-else if(num == 0) {
-    result = (num, "is zero");
-}
-else if (num<0){
-    result = (num, "is negative")
-}
-console.log(result);
+// if(num>0) {
+//     result = (num,"is a positive number");
+// }
+// else if(num == 0) {
+//     result = (num, "is zero");
+// }
+// else if (num<0){
+//     result = (num, "is negative")
+// }
+// console.log(result);
+
+/*Write a program that checks if a number is even or odd.*/
+// let num = prompt("enter an integer number");
+// let result;
+
+// if (num%2 == 0) {
+//     result =(num, "is a even number");
+// }
+// else {
+//     result = (num, "is an odd number");
+// }
+// console.log(result);
