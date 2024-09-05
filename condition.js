@@ -93,3 +93,21 @@ Create a simple JavaScript program that takes a student's score as input and ret
 //     result = (num, "is an odd number");
 // }
 // console.log(result);
+
+/*Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.*/
+
+let age = prompt ("enter your age: ");
+let ticketPrice;
+if (age<=12) {
+    ticketPrice = ("ticket price 5tk");
+}
+else if (age<=18) {
+    ticketPrice = ("ticket price 10tk");
+}
+else if (age<=60) {
+    ticketPrice = ("ticket price 20tk");
+}
+else if (age>60) {
+    ticketPrice = ("ticket price 15tk");
+}
+console.log(ticketPrice);
