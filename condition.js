@@ -46,22 +46,38 @@ Create a simple JavaScript program that takes a student's score as input and ret
 
 ***/
 
-let score = prompt("Enter the score:");
-let grade;
+// let score = prompt("Enter the score:");
+// let grade;
 
-if (score>=90 && score<=100) {
-    grade ="A";
+// if (score>=90 && score<=100) {
+//     grade ="A";
+// }
+// else if (score>=80 && score<=89) {
+//     grade ="B"
+// }
+// else if (score>=70 && score<=79) {
+//     grade ="C"
+// }
+// else if (score>=60 && score<=69) {
+//     grade ="D"
+// }
+// else if (score>=0 && score<=59) {
+//     grade ="F"
+// }
+// console.log(grade);
+
+/*Write a program that determines whether a given number is positive or negative.*/
+
+let num = prompt("enter a number");
+let result;
+
+if(num>0) {
+    result = (num,"is a positive number");
 }
-else if (score>=80 && score<=89) {
-    grade ="B"
+else if(num == 0) {
+    result = (num, "is zero");
 }
-else if (score>=70 && score<=79) {
-    grade ="C"
+else if (num<0){
+    result = (num, "is negative")
 }
-else if (score>=60 && score<=69) {
-    grade ="D"
-}
-else if (score>=0 && score<=59) {
-    grade ="F"
-}
-console.log(grade);
+console.log(result);
