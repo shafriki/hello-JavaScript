@@ -148,3 +148,23 @@ Create a simple JavaScript program that takes a student's score as input and ret
 // for (let key in student) {
 //     console.log("key = ",key, "value = ",student[key])
 // }
+
+// for (num=1; num<=100; num++) {
+//     console.log("number: ",num);
+// }
+// let num=0;
+// while (num<=100) {
+//     console.log("number: ",num);
+//     num++;
+// }
+// let num = 0;
+// do {
+//     console.log("number: ",num);
+//     num++;
+// } while (num<=100);
+
+for (num=0; num<=100; num++) {
+    if (num%2 != 0) {
+        console.log("number: ",num)
+    }
+}
