@@ -163,8 +163,61 @@ Create a simple JavaScript program that takes a student's score as input and ret
 //     num++;
 // } while (num<=100);
 
-for (num=0; num<=100; num++) {
-    if (num%2 != 0) {
-        console.log("number: ",num)
-    }
+// for (num=0; num<=100; num++) {
+//     if (num%2 != 0) {
+//         console.log("number: ",num)
+//     }
+// }
+
+// let num =0;
+
+// while (num<=100){
+//     if (num%2 != 0){
+//         console.log("number: ", num);
+//     }
+//     num++;
+// }
+
+// let password =1234;
+// let userGiven = prompt("Enter the password: ");
+
+// while (userGiven != password) {
+//     userGiven = prompt("You entered wrong. Try again");
+// }
+// console.log("welcome to your profile");
+
+
+// let heros = ["ironman", "spiderman", "batman", "saktiman", "shafriki"];
+// // for(idx=0; idx<heros.length; idx++) {
+// //     console.log(heros[idx]);
+// // }
+// for(let hero of heros){
+//     console.log(hero);
+// }
+
+let cities = ["dhaka", "rajshahi", "natore", "sylhet", "rangpur","chapainawabganj"];
+
+// for (idx = 0; idx<cities.length; idx++) {
+//     console.log(cities[idx])
+// }
+// let idx=0;
+// while (idx <cities.length) {
+//     console.log(cities[idx]);
+//     idx++;
+// }
+//  for (let city of cities) {
+//      console.log("name: ", city.toUpperCase());
+//  }
+
+//  for (let city in cities) {
+//      console.log(cities[city.toUpperCase()]);
+//  }
+let marks = [97,34 ,34,25, 54, 64, 65, 65, 24, 60];
+
+let sum = 0;
+for (let val of marks) {
+    sum+= val;
+
 }
+let avg = sum/marks.length;
+console.log(avg);
