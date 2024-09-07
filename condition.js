@@ -212,12 +212,29 @@ let cities = ["dhaka", "rajshahi", "natore", "sylhet", "rangpur","chapainawabgan
 //  for (let city in cities) {
 //      console.log(cities[city.toUpperCase()]);
 //  }
-let marks = [97,34 ,34,25, 54, 64, 65, 65, 24, 60];
+// let marks = [97,34 ,34,25, 54, 64, 65, 65, 24, 60];
 
-let sum = 0;
-for (let val of marks) {
-    sum+= val;
+// let sum = 0;
+// for (let val of marks) {
+//     sum+= val;
 
+// }
+// let avg = sum/marks.length;
+// console.log(avg);
+
+// let box = ["apple", "banana", "litchi", "jackfruit", "mango"];
+
+
+
+function calculateMoney(ticketSale) {
+    if (ticketSale<0) {
+        return "invalid number"
+    }
+    let remainingAmount = ticketSale *120 - (500 + 8 * 50)
+
+    return remainingAmount
 }
-let avg = sum/marks.length;
-console.log(avg);
+console.log(calculateMoney(10));
+console.log(calculateMoney(-1));
+console.log(calculateMoney(100));
+console.log(calculateMoney(109387));
