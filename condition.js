@@ -234,7 +234,33 @@ function calculateMoney(ticketSale) {
 
     return remainingAmount
 }
-console.log(calculateMoney(10));
-console.log(calculateMoney(-1));
-console.log(calculateMoney(100));
-console.log(calculateMoney(109387));
+// console.log(calculateMoney(10));
+// console.log(calculateMoney(-1));
+// console.log(calculateMoney(100));
+// console.log(calculateMoney(109387));
+
+// function brushTeeth() {
+//     console.log("pick up brush");
+//     console.log("2 min ghoso");
+//     console.log("fena felo");
+// }
+// brushTeeth();
+
+// function macherTorkari(mach, shobji, mosla) {
+//     console.log("tel gorom korun");
+//     console.log("mosla de");
+//     console.log("shobji de");
+//     console.log(mach + " din");
+
+//     return "sussadu macher torkarki prostut";
+// }
+// const result =macherTorkari ("ilish", "alu", "holud");
+// console.log(result);
+
+function square(number) {
+    let square = number*number;
+    console.log("given number square is: ",square);
+    
+
+}
+square(5);
