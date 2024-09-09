@@ -315,7 +315,7 @@ function calculateMoney(ticketSale) {
 // }
 // const giveName = showName()
 // console.log(giveName);
-
+/*
 const numbers =[45,354,345,2,34,54,2,543,2];
 
 let biggest = numbers[0];
@@ -327,3 +327,21 @@ for(let i=1; i<numbers.length; i++) {
     }
 }
 console.log("after loop: ",biggest);
+*/
+
+function biggestNumber(num) {
+    let biggest = num[0];
+
+    console.log("before loop: ",biggest);
+
+for(let i=1; i<num.length; i++) {
+    if(num[i]>biggest) {
+        biggest =num[i];
+    }
+}
+return biggest;
+
+}
+const numbers = [23,43,12, 43, 54,54, 23,123, 500]
+const result =biggestNumber(numbers);
+console.log(result);
