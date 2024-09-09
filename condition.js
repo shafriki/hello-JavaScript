@@ -257,10 +257,16 @@ function calculateMoney(ticketSale) {
 // const result =macherTorkari ("ilish", "alu", "holud");
 // console.log(result);
 
-function square(number) {
-    let square = number*number;
-    console.log("given number square is: ",square);
+// function square(number) {
+//     let square = number*number;
+//     console.log("given number square is: ",square);
     
 
-}
-square(5);
+// }
+// square(5);
+
+// function add(x,y) {
+//     const add = x+y;
+//     console.log("result: ",add);
+// }
+// add(2,3);
