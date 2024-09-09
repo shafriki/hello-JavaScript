@@ -271,31 +271,59 @@ function calculateMoney(ticketSale) {
 // }
 // add(2,3);
 
-function calculateMoney(ticketCount) {
-    // Check if the input is a negative number
-    if (ticketCount < 0) {
-        return "Error: Ticket count cannot be negative.";
+// function calculateMoney(ticketCount) {
+//     // Check if the input is a negative number
+//     if (ticketCount < 0) {
+//         return "Error: Ticket count cannot be negative.";
+//     }
+
+//     // Constants for the ticket price, guard cost, and staff lunch cost
+//     const ticketPrice = 120;
+//     const guardCost = 500;
+//     const staffLunchCost = 50;
+//     const numberOfStaff = 8;
+
+//     // Calculate total income from ticket sales
+//     const totalIncome = ticketCount * ticketPrice;
+
+//     // Calculate total expenses
+//     const totalExpenses = guardCost + (numberOfStaff * staffLunchCost);
+
+//     // Calculate the remaining money after expenses
+//     const remainingMoney = totalIncome - totalExpenses;
+
+//     // Return the remaining money
+//     return remainingMoney;
+// }
+
+// // Example usage:
+// console.log(calculateMoney(10)); // Output: 300
+// console.log(calculateMoney(-5)); // Output: Error: Ticket count cannot be negative.
+// console.log(calculateMoney(1055))
+
+// function add(x, y) {
+//     const sum = x+y;
+//     console.log("sum of two numbers: ", sum);
+//     const sub =x-y;
+//     console.log("sub of two numbers: ", sub);console.log("sum of two numbers: ", total);
+// }
+// add(1,23);
+
+// function showName() {
+//     const name ="shafriki islam";
+//     return name;
+// }
+// const giveName = showName()
+// console.log(giveName);
+
+const numbers =[45,354,345,2,34,54,2,543,2];
+
+let biggest = numbers[0];
+console.log("before loop: ",biggest);
+
+for(let i=1; i<numbers.length; i++) {
+    if(numbers[i]>biggest) {
+        biggest =numbers[i];
     }
-
-    // Constants for the ticket price, guard cost, and staff lunch cost
-    const ticketPrice = 120;
-    const guardCost = 500;
-    const staffLunchCost = 50;
-    const numberOfStaff = 8;
-
-    // Calculate total income from ticket sales
-    const totalIncome = ticketCount * ticketPrice;
-
-    // Calculate total expenses
-    const totalExpenses = guardCost + (numberOfStaff * staffLunchCost);
-
-    // Calculate the remaining money after expenses
-    const remainingMoney = totalIncome - totalExpenses;
-
-    // Return the remaining money
-    return remainingMoney;
 }
-
-// Example usage:
-console.log(calculateMoney(10)); // Output: 300
-console.log(calculateMoney(-5)); // Output: Error: Ticket count cannot be negative.
+console.log("after loop: ",biggest);
