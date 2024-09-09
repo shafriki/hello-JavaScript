@@ -270,3 +270,32 @@ function calculateMoney(ticketSale) {
 //     console.log("result: ",add);
 // }
 // add(2,3);
+
+function calculateMoney(ticketCount) {
+    // Check if the input is a negative number
+    if (ticketCount < 0) {
+        return "Error: Ticket count cannot be negative.";
+    }
+
+    // Constants for the ticket price, guard cost, and staff lunch cost
+    const ticketPrice = 120;
+    const guardCost = 500;
+    const staffLunchCost = 50;
+    const numberOfStaff = 8;
+
+    // Calculate total income from ticket sales
+    const totalIncome = ticketCount * ticketPrice;
+
+    // Calculate total expenses
+    const totalExpenses = guardCost + (numberOfStaff * staffLunchCost);
+
+    // Calculate the remaining money after expenses
+    const remainingMoney = totalIncome - totalExpenses;
+
+    // Return the remaining money
+    return remainingMoney;
+}
+
+// Example usage:
+console.log(calculateMoney(10)); // Output: 300
+console.log(calculateMoney(-5)); // Output: Error: Ticket count cannot be negative.
