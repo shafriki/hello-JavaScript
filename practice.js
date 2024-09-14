@@ -9,4 +9,9 @@ var date =23;
 
 var name = "shafriki islam shemul";
 
-console.log(name);
+// console.log(name);
+function Sum(numberOne, numberTwo) {
+    const total = (numberOne+numberTwo);
+    return total;
+}
+console.log(Sum(1,2));
